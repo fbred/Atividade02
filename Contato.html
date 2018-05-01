@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <style>
+        ul{
+            list-style: none;
+            /*text-transform: uppercase;*/
+        }
+
+        nav{
+            display: block;
+        }
+        nav li{
+            display: inline-block;
+        }
+        nav ul{
+
+            position: absolute;
+            top: 20px;
+            left: 1000px;
+            /* background-color: #dddddd;*/
+            margin: 5px;
+
+        }
+        h1{
+            text-indent: 15px;
+            text-align: justify;
+            color: darkorange;
+        }
+        h2 {
+            text-indent: 15px;
+            text-align: justify;
+        }
+        h4{
+            text-align: center;
+
+        }
+        p{
+            text-align: justify;
+            text-indent: 15px;
+           /* margin: 2px;*/
+        }
+        div{
+            width: 1250px;
+            margin: 0px 0px 2px 40px ;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="Imagens/logo.jpg">
+    <img align="center"  vspace="25px" hspace="35px"src="Imagens/Linha.jpg" width="1265px">
+    <nav>
+        <ul >
+            <li><a href="home.html" target="_self">Home</a></li>
+            <li><a href="Quem_somos.html"> |Quem Somos|</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<div>
+<h1>Contato</h1>
+    <h2>E-Mail: jmviagems@jmviagems.com.br</h2>
+<p>Utilize os campos abaixo para solicitar documentos, prazos e duvidas para que sua viagen possa ser a mais descomplicada possivel!!!</p>
+
+<form>
+  <fieldset id="entrar"> <legend> Controle de Ascesso</legend>
+      <p>Usuário:<input type="text" name="tNome" id="cNome" placeholder="Digite seu usuário"></p>
+      <p>Senha:<input type="password" name="tSenha" id="cSenha"size="10" maxlength="15" placeholder="Digite sua senha"></p>
+      <p><input type="button" value="Entrar" /></p>
+  </fieldset>
+
+<fieldset id="cadastro"><legend>Cadastro de Usuário</legend>
+    <p>Nome:<input type="text" name="tcadNome" id="ccadNome" placeholder="Digite seu nome"> &nbsp; E-Mail:<input type="email" name="tcadEmail" id="ccadEmail" placeholder="Digite seu e-mail"></p>
+    <p>Usuário:<input type="text" name="tcadNome" id="ccadUsuario" placeholder="Digite seu usuário"> &nbsp;Senha:<input type="password" size="10" placeholder="Digite sua senha"></p>
+
+    <p>Sexo: <br/>
+    &nbsp;&nbsp;&nbsp;<input type="radio" name="tSexo" id="cSexom" /> <label for="cSexom">Masculino</label> <input type="radio" name="tSexo" id="cSexof" /><label for="cSexof">Feminino</label><p/>
+
+
+    <p>Intereses <br/>
+    &nbsp;&nbsp;&nbsp;<input type="checkbox" name="cbFutebol" id="idcbFutebol" />Futebol <input type="checkbox" name="cbLivros" id="iccbLivros" /> Livros <input type="checkbox" name="cbFilme" id="idcbFilmes" />Filmes <input type="checkbox" name="dbTeatro" id="idcbTeatro" /> Teatro</p>
+
+
+
+   <p><label for="teEstado">Estado:</label>
+    <select name="seEstado" id="teEstado">
+        <option>Escolha Uma Opção</option>
+        <option>Amazonas</option>
+        <option>Bahia</option>
+        <option>São Paulo</option>
+        <option>Tocantins</option>
+    </select><p/>
+
+
+    <p>Observações <br/></p>
+    <p><textarea name="tcaixadeTexto" id="idCaixadetexto" cols="45" rows="5" placeholder="Deixe aqui sua observação" ></textarea></p>
+
+
+
+    <p><input type="submit" value="Cadastrar" /></p>
+</fieldset>
+</form>
+
+
+</div>
+</body>
+</html>
