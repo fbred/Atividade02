@@ -1,0 +1,38 @@
+@charset "UTF-8";
+         ul{
+          list-style: none;
+          /*text-transform: uppercase;*/
+        }
+
+        nav{
+            display: block;
+        }
+        nav li{
+            display: inline-block;
+        }
+        nav ul{
+
+            position: absolute;
+            top: 20px;
+            left: 1000px;
+           /* background-color: #dddddd;*/
+            margin: 5px;
+
+        }
+        h1{
+            text-indent: 15px;
+            text-align: justify;
+            color: darkorange;
+        }
+        h4{
+            text-align: center;
+
+        }
+        p{
+            text-align: justify;
+            text-indent: 15px;
+        }
+        div{
+           width: 1250px;
+           margin: 0px 0px 2px 40px ;
+        } 
